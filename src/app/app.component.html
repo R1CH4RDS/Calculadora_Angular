@@ -1,0 +1,38 @@
+<div class="fundinho">
+  <img class="fundogostoso" src="assets/pngegg.png"></div>
+<div class="titulo"><label for="teste">DOS CRIA</label>
+</div>
+
+
+<div class="DisplayP">
+<p id="resultado">{{display}}</p>
+</div>
+
+
+<table>
+  <tr>
+    <td><button class="botao7" (click)="insert(7)">7</button></td>
+    <td><button class="botao8" (click)="insert(8)">8</button></td>
+    <td><button class="botao9" (click)="insert(9)">9</button></td>
+    <td><button class="botaox" (click)="especial('*')">*</button></td>
+  </tr>
+  <tr>
+    <td><button class="botao4" (click)="insert(4)">4</button></td>
+    <td><button class="botao5" (click)="insert(5)">5</button></td>
+    <td><button class="botao6" (click)="insert(6)">6</button></td>
+    <td><button class="botao-" (click)="especial('-')">-</button></td>
+  </tr>
+  <tr>
+    <td><button class="botao1" (click)="insert(1)">1</button></td>
+    <td><button class="botao2" (click)="insert(2)">2</button></td>
+    <td><button class="botao3" (click)="insert(3)">3</button></td>
+    <td><button class="botaomais" (click)="especial('+')">+</button></td>
+  </tr>
+  <tr>
+    <td><button class="botao0" (click)="insert(0)">0</button></td>
+    <td><button class="botaoC" (click)="clear()">C</button></td>
+    <td><button class="botaoCC" (click)="back()">⌫</button></td>
+    <td><button class="botaodivi" (click)="especial('/')">÷</button>
+    <td rowspan="2"><button class="botaocal" (click)="calcular()">=</button></td>
+  </tr>
+</table>
